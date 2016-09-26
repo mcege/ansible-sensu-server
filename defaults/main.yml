@@ -1,0 +1,16 @@
+#Default params for sensu role
+---
+
+#config.json params
+sensu_rabbitmq_host: localhost
+sensu_rabbitmq_vhost: sensu
+sensu_rabbitmq_user: sensu
+sensu_rabbitmq_password: sensu
+sensu_redis_host: localhost
+sensu_api_host: localhost
+
+#client.json params
+sensu_client_host:
+sensu_client_ip:
+#sensu_client_handlers:
+sensu_client_subscriptions:
